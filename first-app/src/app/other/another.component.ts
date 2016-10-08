@@ -3,13 +3,13 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'first-another',
   template: `
-    <p>
-      another Works!
-    </p>
+   <article>
+    <ng-content></ng-content>
+   </article>
   `,
   styles: [`
-      p{
-          color: blue;
+      article {
+        border: 1px solid black;
       }
 `]
 })
