@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'first-another',
   template: `
-   <article>a
+   <article>
     <ng-content></ng-content>
    </article>
   `,
