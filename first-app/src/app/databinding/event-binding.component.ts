@@ -1,4 +1,4 @@
-import { Component} from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 
 @Component({
   selector: 'app-event-binding',
@@ -8,8 +8,13 @@ import { Component} from '@angular/core';
   styles: []
 })
 export class EventBindingComponent {
+
+  // I'm using @Output() in order to make the custom event clicked listenable outside of this component (event-binding-comp)
+ @Output() clicked = new EventEmitter<string>(); // i created an event object.
+
   onclicked(){
-    alert("It worked!")
+    //alert("It worked!") // used this for the Event Binding example
+    this.clicked.emit("It Worked!")
   }
 
 }

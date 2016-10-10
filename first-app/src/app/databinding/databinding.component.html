@@ -15,7 +15,10 @@
 <hr>
 
 <h1>Event Binding</h1>
-<app-event-binding></app-event-binding>
+<!--used this for the Event Binding example-->
+<!--<app-event-binding></app-event-binding>-->
 
+<!--$event is our my way to extract data i passed with an event-->
+<app-event-binding (clicked)="onClicked($event)" ></app-event-binding>
 
 
