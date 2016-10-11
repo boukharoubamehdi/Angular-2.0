@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Root component!';
   delete = false;
+  test = 'Starting value';
+  boundValue= 1000;
 }

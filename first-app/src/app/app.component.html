@@ -23,6 +23,10 @@
 <!--<app-databinding> </app-databinding>-->
 
 <button (click)="delete = true">Click to Delete</button>
+<button (click)="test = 'Changed value'">Click to Change Content</button>
+<button (click)="boundValue = 2000">Click to Change Binding</button>
 
 <!--*ngIf only atach this component to the DOM if delete is not true-->
-<app-lifecycle *ngIf="delete"></app-lifecycle>
+<app-lifecycle *ngIf="!delete" [bindable]="boundValue">
+    <p>{{test}}</p>
+</app-lifecycle>
