@@ -19,4 +19,10 @@
   <p>Something else</p>
 </first-another>-->
 
-<app-databinding> </app-databinding>
+
+<!--<app-databinding> </app-databinding>-->
+
+<button (click)="delete = true">Click to Delete</button>
+
+<!--*ngIf only atach this component to the DOM if delete is not true-->
+<app-lifecycle *ngIf="delete"></app-lifecycle>

@@ -10,6 +10,7 @@ import { DatabindingComponent } from './databinding/databinding.component';
 import { PropertyBindingComponent } from './databinding/property-binding.component';
 import { EventBindingComponent } from './databinding/event-binding.component';
 import { TwoWayBindingComponent } from './databinding/two-way-binding.component';
+import { LifecycleComponent } from './lifecycle.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { TwoWayBindingComponent } from './databinding/two-way-binding.component'
     DatabindingComponent,
     PropertyBindingComponent,
     EventBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    LifecycleComponent
   ],
   imports: [
     BrowserModule,
