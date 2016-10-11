@@ -1,4 +1,5 @@
-import { Component,
+import {
+  Component,
   OnInit,
   OnChanges,
   DoCheck,
@@ -7,7 +8,9 @@ import { Component,
   AfterViewInit,
   AfterViewChecked,
   OnDestroy,
-  Input
+  Input,
+  ViewChild,
+  ContentChild
 } from '@angular/core';
 
 @Component({
@@ -15,7 +18,13 @@ import { Component,
   template: `
    <ng-content></ng-content>
    <hr>
-   <p>{{bindable}}</p>
+   <!--I'm binding the Paragraph to a reference (#boundParagraph)-->
+   <p #boundParagraph>{{bindable}}</p>
+   
+   <!--I access the text of the Paragraph through the bound varible (boundParagraph). 
+   this is how i can use local variables in my templates.-->
+   <p>{{boundParagraph.textContent}}</p>
+   
   `,
   styles: []
 })
@@ -23,6 +32,12 @@ export class LifecycleComponent implements OnInit, OnChanges,
   DoCheck,AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked,OnDestroy{
 
     @Input() bindable  = 1000;
+    // to access to the boundParagraph here i need a @ViewChild because it's a local variable of the template.
+    // ('X') have to match with #X of the template.
+    @ViewChild('boundParagraph') boundParagraph : HTMLElement;
+
+    @ContentChild('boundContent') boundContent : HTMLElement;
+
 
   constructor() {
   }
@@ -41,6 +56,7 @@ export class LifecycleComponent implements OnInit, OnChanges,
 
   ngAfterContentInit(){
     this.log('AfterContentInit');
+    console.log(this.boundContent);
   }
 
   ngAfterContentChecked(){
@@ -50,6 +66,7 @@ export class LifecycleComponent implements OnInit, OnChanges,
 
   ngAfterViewInit(){
     this.log('AfterViewInit');
+    console.log(this.boundParagraph);
   }
 
   ngAfterViewChecked(){

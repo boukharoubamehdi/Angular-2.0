@@ -28,5 +28,5 @@
 
 <!--*ngIf only atach this component to the DOM if delete is not true-->
 <app-lifecycle *ngIf="!delete" [bindable]="boundValue">
-    <p>{{test}}</p>
+    <p #boundContent>{{test}}</p>
 </app-lifecycle>
