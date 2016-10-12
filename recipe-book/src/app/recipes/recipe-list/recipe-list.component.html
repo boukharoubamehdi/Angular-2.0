@@ -9,7 +9,7 @@
     <ul class="list-group">
       <!--[recipe] = recipe-item-->
       <!--='recipe' : is from recipe-list-->
-      <rb-recipe-item [recipe]="recipe"></rb-recipe-item>
+      <rb-recipe-item [recipe]="recipe" (click)= "onSelected(recipe)"></rb-recipe-item>
     </ul>
   </div>
 </div>
