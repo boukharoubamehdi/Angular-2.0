@@ -1,5 +1,5 @@
 //import {Directive, ElementRef, Renderer, HostListener} from '@angular/core';
-import {Directive, HostListener, HostBinding} from '@angular/core';
+import {Directive, HostListener, HostBinding, Input, OnInit} from '@angular/core';
 
 @Directive({
   selector: '[dirHighlight]'
@@ -19,12 +19,12 @@ export class HighlightDirective {
   //which will trigger a method HostListener('method').
 
   @HostListener('mouseenter') mouseover(){
-      this.backgroundColor = 'green';
+      this.backgroundColor = this.highlightColor;
     //we can also use the this.renderer.setElementStyle(this.elementRef.nativeElement, 'background-color', 'green') logic
   };
 
   @HostListener('mouseleave') mouseleave(){
-    this.backgroundColor = 'White';
+    this.backgroundColor = this.defaultColor;
   };
 
   //we are changing the color (with @HostListener('mouseenter') mouseover() ) (we wont see the change
@@ -35,9 +35,15 @@ export class HighlightDirective {
 
   };
 
-  private  backgroundColor = 'White';
+  @Input() defaultColor = 'white';
+  @Input('dirHighlight') highlightColor = 'green';
+  private  backgroundColor : string;
   constructor(){
 
   }
+
+ngOnInit(){
+  this.backgroundColor = this.defaultColor;
+}
 
 }

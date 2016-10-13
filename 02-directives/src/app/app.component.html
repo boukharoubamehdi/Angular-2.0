@@ -7,4 +7,7 @@
 <div [ngStyle]="{'background-color':'red'}"></div>
 <hr>
 <h2>Custom Attribute Directive</h2>
-<div dirHighlight>Some Text</div>
+<!--<div dirHighlight>Some Text</div>-->
+<!--<div dirHighlight [highlightColor]= "'blue'" [defaultColor]= "'red'" >Some Text</div>-->
+<!--Same thing-->
+<div  [dirHighlight]= "'blue'" [defaultColor]= "'red'" >Some Text</div>
