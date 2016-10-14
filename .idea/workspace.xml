@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1e7d7c-9539-4b49-b39c-625f4aa46c58" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Starting-Project/src/app/service/cmp-a.component.ts" afterPath="$PROJECT_DIR$/Starting-Project/src/app/service/cmp-a.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Starting-Project/src/app/service/cmp-b.component.ts" afterPath="$PROJECT_DIR$/Starting-Project/src/app/service/cmp-b.component.ts" />
     </list>
     <ignored path="Angular-2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,25 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="log.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/log.service.ts">
+      <file leaf-file-name="cmp-a.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/cmp-a.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="27">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+                <marker date="1476477482000" expanded="true" signature="151:369" ph="..." />
+                <marker date="1476477482000" expanded="true" signature="388:624" ph="..." />
+                <marker date="1476477482000" expanded="true" signature="485:556" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cmp-a.component.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/cmp-a.component.ts">
+      <file leaf-file-name="cmp-b.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/cmp-b.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
               <folding>
-                <marker date="1475043543000" expanded="true" signature="107:325" ph="..." />
-                <marker date="1475043543000" expanded="true" signature="344:580" ph="..." />
-                <marker date="1475043543000" expanded="true" signature="441:512" ph="..." />
+                <element signature="e#0#50#0" expanded="true" />
+                <marker date="1476477872000" expanded="true" signature="159:319" ph="..." />
+                <marker date="1476477872000" expanded="true" signature="338:574" ph="..." />
+                <marker date="1476477872000" expanded="true" signature="435:506" ph="..." />
               </folding>
             </state>
           </provider>
@@ -74,6 +81,8 @@
         <option value="$PROJECT_DIR$/recipe-book/src/app/header.component.html" />
         <option value="$PROJECT_DIR$/recipe-book/src/app/dropdown.directive.ts" />
         <option value="$PROJECT_DIR$/Starting-Project/src/app/service/log.service.ts" />
+        <option value="$PROJECT_DIR$/Starting-Project/src/app/service/cmp-a.component.ts" />
+        <option value="$PROJECT_DIR$/Starting-Project/src/app/service/cmp-b.component.ts" />
       </list>
     </option>
   </component>
@@ -293,12 +302,12 @@
       <option name="presentableId" value="Default" />
       <updated>1476380493094</updated>
       <workItem from="1476380494533" duration="12640000" />
-      <workItem from="1476467611000" duration="6832000" />
+      <workItem from="1476467611000" duration="8634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19472000" />
+    <option name="totallyTimeSpent" value="21274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -518,22 +527,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/service.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/log.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/cmp-a.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="27">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
-            <marker date="1475043543000" expanded="true" signature="107:325" ph="..." />
-            <marker date="1475043543000" expanded="true" signature="344:580" ph="..." />
-            <marker date="1475043543000" expanded="true" signature="441:512" ph="..." />
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1476477482000" expanded="true" signature="151:369" ph="..." />
+            <marker date="1476477482000" expanded="true" signature="388:624" ph="..." />
+            <marker date="1476477482000" expanded="true" signature="485:556" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/cmp-b.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+            <marker date="1476477872000" expanded="true" signature="159:319" ph="..." />
+            <marker date="1476477872000" expanded="true" signature="338:574" ph="..." />
+            <marker date="1476477872000" expanded="true" signature="435:506" ph="..." />
           </folding>
         </state>
       </provider>
