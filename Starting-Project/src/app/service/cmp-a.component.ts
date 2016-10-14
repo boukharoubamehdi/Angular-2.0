@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+//example for the one Instance/Multiple service.
 import { LogService } from './log.service';
 import { DataService } from './data.service';
 
@@ -21,11 +22,12 @@ import { DataService } from './data.service';
         <h3>Received Value</h3>
         <p>{{value}}</p>
     </div>
-  `,
+  `
     //providers meta-data will tell to Angular 2 which object we want to use in the body of this component.
     // used for the multiple instance example.
     // providers :[LogService,DataService]
-    providers :[LogService]
+    //example for the one Instance service.
+    //providers :[LogService]
 })
 
 
