@@ -7,9 +7,12 @@ import { Recipe } from '../recipe';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
- recipes :Recipe [] = [];
+ recipes :Recipe [] = [
+   new Recipe('Schnitzel', 'Very tasty', 'http://www.daringgourmet.com/wp-content/uploads/2014/03/Schnitzel-5.jpg',null),
+   new Recipe('Summer Salad', 'Okayish', 'http://sugarmamacooks.com/wp-content/uploads/2014/07/Mexican-summer-salad-with-cilantro-lime-dressing-2_small.jpg', null)
+];
  @Output() recipeSelected = new EventEmitter<Recipe>();
- recipe = new Recipe('Dummy','Dummy','http://thumbs.ebaystatic.com/images/m/mfXELL6zPWJE4OC0agiXMZw/s-l225.jpg');
+ recipe = new Recipe('Dummy','Dummy','http://sugarmamacooks.com/wp-content/uploads/2014/07/Mexican-summer-salad-with-cilantro-lime-dressing-2_small.jpg', null);
 
   constructor() { }
 
