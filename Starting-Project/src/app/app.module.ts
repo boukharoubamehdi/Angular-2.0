@@ -11,7 +11,7 @@ import { CmpBComponent } from "./service/cmp-b.component";
         AppComponent,
         ServiceComponent,
         CmpAComponent,
-        CmpBComponent
+        CmpBComponent,
     ],
     imports: [BrowserModule],
     providers: [],

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LogService } from './log.service';
+import { DataService } from './data.service';
 
 @Component({
     selector: 'si-cmp-b',
@@ -21,13 +22,15 @@ import { LogService } from './log.service';
     </div>
   `,
     //providers meta-data will tell to Angular 2 which object we want to use in the body of this component.
+    // used for the multiple instance example.
+    // providers :[LogService,DataService]
     providers :[LogService]
 })
-export class CmpBComponent implements OnInit {
+export class CmpBComponent{
 
-    constructor(private logService: LogService){
+    constructor(private logService: LogService, private dataService: DataService){
+
     }
-
     value = '';
     items: string[] = [];
 
@@ -36,11 +39,17 @@ export class CmpBComponent implements OnInit {
     }
 
     onStore(value: string) {
+        this.dataService.addData(value);
+
     }
 
     onGet() {
+        this.items = this.dataService.getData();
+        //if i dont want the array to be live updated i can slice it now i need to lick on refrech store to see the update.
+        //this.items = this.dataService.getData().slice(0);
     }
 
-    ngOnInit() {
+    onSend(value: string) {
+
     }
 }
