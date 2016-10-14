@@ -28,7 +28,7 @@ import { DataService } from './data.service';
     //example for the one Instance service.
     //providers :[LogService]
 })
-export class CmpBComponent{
+export class CmpBComponent implements OnInit{
 
     constructor(private logService: LogService, private dataService: DataService){
 
@@ -51,7 +51,10 @@ export class CmpBComponent{
         //this.items = this.dataService.getData().slice(0);
     }
 
-    onSend(value: string) {
-
+    ngOnInit(){
+        //we are observing the event emitter (we got a notification if something is emitting)
+        this.dataService.pushedData.subscribe(
+            data => this.value = data
+        );
     }
 }
