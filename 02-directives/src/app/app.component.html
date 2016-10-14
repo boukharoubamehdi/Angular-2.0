@@ -11,3 +11,45 @@
 <!--<div dirHighlight [highlightColor]= "'blue'" [defaultColor]= "'red'" >Some Text</div>-->
 <!--Same thing-->
 <div  [dirHighlight]= "'blue'" [defaultColor]= "'red'" >Some Text</div>
+
+<h2>*ngIf</h2>
+<div *ngIf="switch">Conditional Text</div>
+<!--Same thing-->
+<template [ngIf]="switch">
+  <div>
+    Conditional Text
+  </div>
+</template>
+
+
+<button (click)="onSwitch()">Switch</button>
+<hr>
+
+<h2>*ngFor</h2>
+<ul>
+  <li *ngFor="let item of items; let i = index"> {{item}} - (index:{{i}})</li>
+</ul>
+<hr>
+
+<!--in this example value =10 so if ngSwitchCase = value, it will render the <p>-->
+<h2>ngSwitch</h2>
+<div [ngSwitch] = "value">
+  <p *ngSwitchCase="10">10</p>
+  <p *ngSwitchCase="100">100</p>
+  <p *ngswitchdefault>Default</p>
+</div>
+
+<!--Same thing-->
+<h2>ngSwitch</h2>
+<p [ngSwitch] = "value">
+  <template [ngSwitchCase]="10">10</template>
+  <template [ngSwitchCase]="10">100</template>
+  <template ngswitchdefault>Default</template>
+</p>
+
+
+
+
+
+
+
