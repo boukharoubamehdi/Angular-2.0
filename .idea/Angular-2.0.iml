@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
@@ -7,6 +8,10 @@
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
     <orderEntry type="inheritedJdk" />
+=======
+<module version="4">
+  <component name="NewModuleRootManager">
+>>>>>>> 6d7000dee2b6b1b93a8a7fc69dce78e0bae2a62a
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
