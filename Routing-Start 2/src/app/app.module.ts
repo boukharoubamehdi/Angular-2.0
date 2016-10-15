@@ -14,7 +14,8 @@ import { Routing } from "./app.routing";
         UserComponent,
         UserDetailComponent,
         UserEditComponent,
-        HomeComponent
+        HomeComponent,
+
     ],
     imports: [BrowserModule, Routing],
     bootstrap: [AppComponent]
