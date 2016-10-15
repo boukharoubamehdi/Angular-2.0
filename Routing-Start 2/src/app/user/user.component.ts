@@ -33,7 +33,10 @@ export class UserComponent implements OnDestroy{
   OnNavigate(){
 
     this.router.navigate(['/'], {queryParams: {'analytics': 100}});
-
+    //example of adding fragment section1 in the imprerative routing.  the other example is to add it in app.component.html
+    this.router.navigate(['/'], {queryParams: {'analytics': 100}, preserveFragment: true});
+    //same thing but the top one is better.
+    // this.router.navigate(['/'], {queryParams: {'analytics': 100}, fragment: 'section1'});
   }
 
   ngOnDestroy(){

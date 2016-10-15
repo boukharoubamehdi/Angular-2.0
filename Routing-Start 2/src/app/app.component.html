@@ -3,7 +3,7 @@
         <div class="col-xs-10">
             <h1>Hello World!</h1>
             <hr>
-            <a [routerLink]="['']">Home</a>
+            <a [routerLink]="['']" [queryParams]= "{analytics: 500}" [fragment]= "'section1'">Home</a>
             <!--force change detection using (input)="0"-->
             <input type="text" #id (input)="0">
             <a [routerLink]="['/user', id.value]">User</a>
