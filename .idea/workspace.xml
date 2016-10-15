@@ -27,11 +27,25 @@
         <entry file="file://$PROJECT_DIR$/recipe-book/src/app/recipes/recipe-detail/recipe-detail.component.ts">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="45">
               <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
 =======
             <state relative-caret-position="75">
               <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+>>>>>>> mehdi
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="75">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+=======
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+>>>>>>> master
+=======
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
 >>>>>>> mehdi
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
@@ -44,6 +58,15 @@
         <entry file="file://$PROJECT_DIR$/recipe-book/src/app/recipes/recipe-list/recipe-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="840">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
+              <folding>
+                <element signature="e#92#135#0" expanded="true" />
+=======
+>>>>>>> mehdi
             <state relative-caret-position="180">
               <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
@@ -58,11 +81,31 @@
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <marker date="1476494971000" expanded="true" signature="719:723" ph="{...}" />
+<<<<<<< HEAD
 =======
             <state relative-caret-position="840">
               <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="e#92#135#0" expanded="true" />
+>>>>>>> mehdi
+=======
+>>>>>>> master
+=======
+            <state relative-caret-position="180">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe-list.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recipe-book/src/app/recipes/recipe-list/recipe-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <marker date="1476494971000" expanded="true" signature="719:723" ph="{...}" />
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
 >>>>>>> mehdi
               </folding>
             </state>
@@ -73,15 +116,34 @@
         <entry file="file://$PROJECT_DIR$/recipe-book/src/app/recipes/recipe-list/recipe-item.component.ts">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="239">
+              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+              <folding>
+                <element signature="e#100#143#0" expanded="true" />
+=======
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
+>>>>>>> master
+=======
+>>>>>>> mehdi
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+<<<<<<< HEAD
 =======
             <state relative-caret-position="239">
               <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
               <folding>
                 <element signature="e#100#143#0" expanded="true" />
+>>>>>>> mehdi
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
 >>>>>>> mehdi
               </folding>
             </state>
@@ -290,9 +352,20 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="27729000" />
 =======
     <option name="totallyTimeSpent" value="27339000" />
+>>>>>>> mehdi
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="27339000" />
+=======
+    <option name="totallyTimeSpent" value="27729000" />
+>>>>>>> master
+=======
+    <option name="totallyTimeSpent" value="27729000" />
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
 >>>>>>> mehdi
   </component>
   <component name="ToolWindowManager">
@@ -335,6 +408,7 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/service.component.ts">
 =======
     <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/data.service.ts">
@@ -369,6 +443,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02-directives/src/app/app.component.css">
 >>>>>>> mehdi
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/data.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/cmp-a.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#92#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/cmp-b.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#100#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-directives/src/app/app.component.css">
+=======
+    <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/service.component.ts">
+>>>>>>> master
+>>>>>>> mehdi
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -392,6 +503,32 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/service.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/data.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/cmp-a.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
     <entry file="file://$PROJECT_DIR$/Starting-Project/src/app/service/cmp-b.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -431,20 +568,37 @@
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/recipes/recipe.service.ts">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+=======
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+>>>>>>> mehdi
         <state relative-caret-position="105">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
+<<<<<<< HEAD
 =======
         <state relative-caret-position="225">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+>>>>>>> mehdi
+=======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
 >>>>>>> mehdi
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/shared/ingredient.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="15">
           <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
@@ -453,11 +607,24 @@
         <state relative-caret-position="150">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
 >>>>>>> mehdi
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+=======
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+        <state relative-caret-position="15">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+          <folding />
+>>>>>>> master
+>>>>>>> mehdi
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/shopping-list/shopping-list.service.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="165">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="16" selection-end-column="48" />
@@ -465,6 +632,18 @@
 =======
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> mehdi
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+        <state relative-caret-position="165">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="16" selection-end-column="48" />
+          <folding />
+>>>>>>> master
 >>>>>>> mehdi
         </state>
       </provider>
@@ -479,12 +658,25 @@
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/shopping-list/shopping-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="75">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding />
 =======
         <state relative-caret-position="15">
           <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+>>>>>>> mehdi
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="15">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+=======
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+>>>>>>> master
 >>>>>>> mehdi
         </state>
       </provider>
@@ -527,14 +719,27 @@
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/recipes/recipe-detail/recipe-detail.component.ts">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+>>>>>>> mehdi
         <state relative-caret-position="45">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
+<<<<<<< HEAD
 =======
         <state relative-caret-position="255">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+>>>>>>> mehdi
+=======
+>>>>>>> master
 >>>>>>> mehdi
         </state>
       </provider>
@@ -572,11 +777,25 @@
     <entry file="file://$PROJECT_DIR$/02-directives/src/app/unless.directive.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 =======
         <state relative-caret-position="540">
           <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+>>>>>>> mehdi
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="540">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> master
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
 >>>>>>> mehdi
         </state>
       </provider>
@@ -591,15 +810,31 @@
     <entry file="file://$PROJECT_DIR$/02-directives/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="315">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+=======
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+>>>>>>> mehdi
         <state relative-caret-position="240">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
             <element signature="e#0#58#0" expanded="false" />
             <marker date="1476409334000" expanded="true" signature="7:239" ph="..." />
           </folding>
+<<<<<<< HEAD
 =======
         <state relative-caret-position="315">
           <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+>>>>>>> mehdi
+=======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
 >>>>>>> mehdi
         </state>
       </provider>
@@ -614,11 +849,25 @@
     <entry file="file://$PROJECT_DIR$/02-directives/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="150">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
 =======
         <state relative-caret-position="342">
           <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+>>>>>>> mehdi
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="342">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+=======
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+>>>>>>> master
+=======
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
 >>>>>>> mehdi
         </state>
       </provider>
@@ -633,6 +882,15 @@
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="165">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+=======
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+>>>>>>> mehdi
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
@@ -646,9 +904,13 @@
           <folding>
             <marker date="1476494971000" expanded="true" signature="719:723" ph="{...}" />
           </folding>
+<<<<<<< HEAD
 =======
         <state relative-caret-position="165">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+>>>>>>> mehdi
+=======
+>>>>>>> master
 >>>>>>> mehdi
         </state>
       </provider>
@@ -658,6 +920,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+>>>>>>> mehdi
         </state>
       </provider>
     </entry>
@@ -666,13 +935,18 @@
         <state relative-caret-position="30">
           <caret line="2" column="89" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
           <folding />
+<<<<<<< HEAD
 =======
+>>>>>>> mehdi
+=======
+>>>>>>> master
 >>>>>>> mehdi
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/recipes/recipe-list/recipe-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="180">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
@@ -681,11 +955,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="23" />
 >>>>>>> mehdi
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="23" />
+=======
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+        <state relative-caret-position="180">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+>>>>>>> master
+>>>>>>> mehdi
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/shopping-list/shopping-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -693,11 +980,25 @@
         <state relative-caret-position="105">
           <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
 >>>>>>> mehdi
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="105">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+=======
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+>>>>>>> master
+=======
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+>>>>>>> mehdi
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/shopping-list/shopping-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="75">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
@@ -706,11 +1007,27 @@
         <state relative-caret-position="60">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
 >>>>>>> mehdi
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+=======
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+>>>>>>> master
+=======
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+>>>>>>> mehdi
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -719,11 +1036,27 @@
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
 >>>>>>> mehdi
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> master
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+>>>>>>> mehdi
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/header.component.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="540">
           <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
@@ -734,11 +1067,28 @@
             <element signature="e#0#55#0" expanded="true" />
           </folding>
 >>>>>>> mehdi
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="75">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="540">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+>>>>>>> master
+=======
+        <state relative-caret-position="540">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+>>>>>>> mehdi
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe-book/src/app/header.component.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -749,6 +1099,22 @@
             <element signature="e#92#135#0" expanded="true" />
           </folding>
 >>>>>>> mehdi
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="840">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#92#135#0" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> master
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+>>>>>>> mehdi
         </state>
       </provider>
     </entry>
@@ -756,6 +1122,18 @@
     <entry file="file://$PROJECT_DIR$/02-directives/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="239">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="e#100#143#0" expanded="true" />
+          </folding>
+=======
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
+>>>>>>> mehdi
         <state relative-caret-position="180">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="19" />
           <folding />
@@ -766,12 +1144,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+<<<<<<< HEAD
 =======
         <state relative-caret-position="239">
           <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
           <folding>
             <element signature="e#100#143#0" expanded="true" />
           </folding>
+>>>>>>> mehdi
+=======
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> ed3675fe95f2abc3e72fd5615c6909842687e6ae
 >>>>>>> mehdi
         </state>
       </provider>
