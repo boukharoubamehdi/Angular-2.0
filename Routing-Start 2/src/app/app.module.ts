@@ -6,7 +6,7 @@ import { UserComponent } from "./user/user.component";
 import { UserDetailComponent } from "./user/user-detail.component";
 import { UserEditComponent } from "./user/user-edit.component";
 import { HomeComponent } from "./home-component.component";
-import { Routing } from "./app.routing";
+import { Routing } from "./app.routes";
 
 @NgModule({
     declarations: [
