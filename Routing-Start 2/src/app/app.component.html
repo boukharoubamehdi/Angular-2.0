@@ -2,6 +2,10 @@
     <div class="row">
         <div class="col-xs-10">
             <h1>Hello World!</h1>
+            <hr>
+            <a [routerLink]="['']">Home</a>
+            <a [routerLink]="['/user']">User</a>
+            <hr>
             <!--Here’s the place where you should render the component which gets loaded my router.-->
             <router-outlet></router-outlet>
         </div>
