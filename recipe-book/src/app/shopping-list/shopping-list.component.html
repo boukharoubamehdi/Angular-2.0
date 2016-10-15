@@ -3,7 +3,7 @@
     <rb-shopping-list-add></rb-shopping-list-add>
     <hr>
     <ul class="list-group">
-      <a class="list-group-item" *ngFor= "let item of items" style=" "></a>
+      <a class="list-group-item" *ngFor= "let item of items" style=" ">{{item.name}} ({{item.amount}})</a>
     </ul>
   </div>
 
