@@ -4,7 +4,9 @@
             <h1>Hello World!</h1>
             <hr>
             <a [routerLink]="['']">Home</a>
-            <a [routerLink]="['/user']">User</a>
+            <!--force change detection using (input)="0"-->
+            <input type="text" #id (input)="0">
+            <a [routerLink]="['/user', id.value]">User</a>
             <hr>
             <!--Here’s the place where you should render the component which gets loaded my router.-->
             <router-outlet></router-outlet>
