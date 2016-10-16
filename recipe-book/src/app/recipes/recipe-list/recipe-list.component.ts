@@ -16,10 +16,4 @@ export class RecipeListComponent implements OnInit {
     this.recipes = this.recipeService.getRecipes();
   }
 
-  //this method will hold the selected Recipe.
-  //and i want to use that to uptade (git it to recipe-detail component) the recipe-detail.
-  // onSelected(recipe: Recipe){
-  //
-  // }
-
 }
