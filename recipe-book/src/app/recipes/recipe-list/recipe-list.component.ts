@@ -1,4 +1,4 @@
-import {Component, OnInit, EventEmitter, Output} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { Recipe } from '../recipe';
 import { RecipeService } from '../recipe.service';
 
@@ -10,9 +10,6 @@ import { RecipeService } from '../recipe.service';
 export class RecipeListComponent implements OnInit {
  recipes :Recipe [] = [];
 
- @Output() recipeSelected = new EventEmitter<Recipe>();
- recipe = new Recipe('Dummy','Dummy','http://sugarmamacooks.com/wp-content/uploads/2014/07/Mexican-summer-salad-with-cilantro-lime-dressing-2_small.jpg', null);
-
   constructor( private recipeService: RecipeService) { }
 
   ngOnInit() {
@@ -21,8 +18,8 @@ export class RecipeListComponent implements OnInit {
 
   //this method will hold the selected Recipe.
   //and i want to use that to uptade (git it to recipe-detail component) the recipe-detail.
-  onSelected(recipe: Recipe){
-    this.recipeSelected.emit(recipe);
-  }
+  // onSelected(recipe: Recipe){
+  //
+  // }
 
 }
