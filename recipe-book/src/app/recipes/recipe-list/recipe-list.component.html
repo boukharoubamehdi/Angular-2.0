@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-xs-12">
-    <a class="btn btn-success">New Recipe</a>
+    <a class="btn btn-success" [routerLink]="new">New Recipe</a>
   </div>
 </div>
 
@@ -10,7 +10,7 @@
       <!--[recipe] = recipe-item-->
       <!--='recipe' : is from recipe-list-->
       <!--<rb-recipe-item [recipe]="recipe" (click)= "onSelected(recipe)"></rb-recipe-item>-->
-      <rb-recipe-item *ngFor= "let recipe of recipes" [recipe]="recipe" (click)= "onSelected(recipe)"></rb-recipe-item>
+      <rb-recipe-item *ngFor= "let recipe of recipes; let i =index " [recipe]="recipe" [recipeId]="i" ></rb-recipe-item>
     </ul>
   </div>
 </div>
