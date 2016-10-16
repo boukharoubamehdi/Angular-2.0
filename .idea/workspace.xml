@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0b546fe-49ce-4a43-b8c2-07f43204f032" name="Default" comment="" />
+    <list default="true" id="c0b546fe-49ce-4a43-b8c2-07f43204f032" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Angular-2.0.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+    </list>
     <ignored path="Angular-2.0.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -253,12 +260,12 @@
       <option name="presentableId" value="Default" />
       <updated>1476571727856</updated>
       <workItem from="1476571730174" duration="975000" />
-      <workItem from="1476640001035" duration="12376000" />
+      <workItem from="1476640001035" duration="12609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13351000" />
+    <option name="totallyTimeSpent" value="13584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
