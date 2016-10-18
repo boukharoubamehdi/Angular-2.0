@@ -45,6 +45,15 @@ export class DataDrivenComponent {
             }
 
         );
+
+        // this.myForm.valueChanges.subscribe(
+        //     (data: any) => console.log(data)
+        // );
+
+        this.myForm.statusChanges.subscribe(
+            (data: any) => console.log(data)
+        );
+
     }
 
     ngSubmit(){
