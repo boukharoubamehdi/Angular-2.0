@@ -31,7 +31,7 @@ export class DataDrivenComponent {
         //Another Way to create Forms (as the one from above).
         this.myForm = formBuilder.group({
             'userData': formBuilder.group({
-                'username':['Mehdi', Validators.required],
+                'username':['Mehdi', [Validators.required, this.exampleValidator]],
                 'email': ['', [Validators.required,
                     Validators.pattern("[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?")
                 ]],
@@ -54,5 +54,15 @@ export class DataDrivenComponent {
         //this Optional: the cast tels typeScript the  part this.myForm.controls['hobbies'] is of type <FormArray>
         (<FormArray>this.myForm.controls['hobbies']).push(new FormControl('',Validators.required));
     }
-    
+
+    //[s: string]: have any key which can be interpreted as a string and the value should be boolean.
+    exampleValidator(control: FormControl): {[s: string]: boolean}{
+        //if conditio will fail because i'm returning something. as long as we return anything, any object the validation
+        //will be treated as fail
+        if(control.value === 'Example'){
+            return {example:true};
+        }
+        return null;
+    }
+
 }
