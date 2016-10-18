@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {FormGroup, FormControl, Validators, FormArray, FormBuilder} from "@angular/forms";
+import {Observable} from "rxjs";
 
 @Component({
     selector: 'data-driven',
@@ -39,7 +40,7 @@ export class DataDrivenComponent {
             'password': ['', Validators.required],
             'gender' : ['male'],
             'hobbies' : formBuilder.array([
-                ['Cooking', Validators.required]
+                ['Cooking', Validators.required,this.asyncExampleValidator]
             ])
             }
 
@@ -52,7 +53,7 @@ export class DataDrivenComponent {
 
     onAddHobby(){
         //this Optional: the cast tels typeScript the  part this.myForm.controls['hobbies'] is of type <FormArray>
-        (<FormArray>this.myForm.controls['hobbies']).push(new FormControl('',Validators.required));
+        (<FormArray>this.myForm.controls['hobbies']).push(new FormControl('', Validators.required, this.asyncExampleValidator));
     }
 
     //[s: string]: have any key which can be interpreted as a string and the value should be boolean.
@@ -64,5 +65,24 @@ export class DataDrivenComponent {
         }
         return null;
     }
+
+    asyncExampleValidator(control: FormControl): Promise<any> | Observable<any>{
+        const promise = new Promise<any>(
+            (resolve,reject) =>{
+                setTimeout( ()=> {
+                    if(control.value === 'Example'){
+                        //it does not matter if we type'invalid' or anything else in resolve({'invalid':true});
+                        // the important point is if we resolve anything other then null validation will have failed.
+                        resolve({'invalid':true});
+                    }else {
+                        resolve(null);
+                    }
+                } ,1500);
+            }
+        );
+            return promise;
+    }
+
+
 
 }
