@@ -34,13 +34,16 @@
             {{g}}
         </label>
     </div>
-    <div>
+    <div formArrayName="hobbies">
         <h3>Hobbies</h3>
-        <div class="form-group">
+        <!--myForm.controls['hobbies']  refers to an object which holds -->
+        <!--more than just the controls of the Array (e.g. also the value, validity etc.).-->
+        <!--same example with <div *ngIf="!myForm.controls.userData.controls.email.valid">-->
+        <div class="form-group" *ngFor="let hobby of myForm.controls['hobbies'].controls; let i = index">
             <input type="text"
-                   class="form-control">
+                   class="form-control" formControlName="{{i}}">
         </div>
     </div>
-    <button type="button" class="btn btn-default">Add Hobby</button>
+    <button type="button" class="btn btn-default" (click)="onAddHobby()">Add Hobby</button>
     <button type="submit" class="btn btn-primary" [disabled]="!myForm.valid">Submit</button>
 </form>
