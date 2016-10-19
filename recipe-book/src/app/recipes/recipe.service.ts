@@ -8,7 +8,10 @@ export class RecipeService {
     new Recipe('Schnitzel', 'Very tasty', 'http://www.daringgourmet.com/wp-content/uploads/2014/03/Schnitzel-5.jpg',[
       new Ingredient('French Fries', 2),
     new Ingredient('Lamb Meat Fries', 1)]),
-    new Recipe('Summer Salad', 'Okayish', 'http://sugarmamacooks.com/wp-content/uploads/2014/07/Mexican-summer-salad-with-cilantro-lime-dressing-2_small.jpg', null)
+    new Recipe('Summer Salad', 'Okayish', 'http://sugarmamacooks.com/wp-content/uploads/2014/07/Mexican-summer-salad-with-cilantro-lime-dressing-2_small.jpg',
+      [
+        new Ingredient('French Eggs', 4),
+        new Ingredient(' cheese', 3)])
   ];
   constructor() { }
 
@@ -23,5 +26,15 @@ export class RecipeService {
   deleteRecipe(recipe: Recipe){
     this.recipes.splice(this.recipes.indexOf(recipe),1);
   }
+
+  addRecipe(recipe: Recipe){
+    this.recipes.push(recipe);
+  }
+
+  editRecipe(oldRecipe: Recipe, newRecipe: Recipe){
+    this.recipes[this.recipes.indexOf(oldRecipe)] = newRecipe;
+  }
+
+
 
 }
