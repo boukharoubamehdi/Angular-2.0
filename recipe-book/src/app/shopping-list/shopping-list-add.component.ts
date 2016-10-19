@@ -1,4 +1,4 @@
-import {Component, Input, OnChanges} from '@angular/core';
+import {Component, Input, OnChanges, EventEmitter, Output} from '@angular/core';
 import {Ingredient} from "../shared/ingredient";
 import {ShoppingListService} from "./shopping-list.service";
 
@@ -9,6 +9,7 @@ import {ShoppingListService} from "./shopping-list.service";
 })
 export class ShoppingListAddComponent implements OnChanges {
   @Input() item: Ingredient;
+  @Output() cleared = new EventEmitter();
   isAdd = true;
 
   constructor(private shoppingListService: ShoppingListService) { }
@@ -23,6 +24,8 @@ export class ShoppingListAddComponent implements OnChanges {
   ngOnChanges(changes) {
     if(changes.item.currentValue === null){
       this.isAdd = true;
+      //it means that name and amount will always be accessible.
+      this.item = {name:null , amount: null};
     }else {
       this.isAdd = false;
     }
@@ -31,11 +34,30 @@ export class ShoppingListAddComponent implements OnChanges {
   //we took ingredient type because the value (of the form) contains name and value
   // same thing in Ingredient Class : constructor(public name: string, public amount: number)
   onSubmit(ingredient: Ingredient) {
+    const newIngredient = new Ingredient(ingredient.name, ingredient.amount);
+
     if(!this.isAdd){
-    //edit
+     this.shoppingListService.editItem(this.item, newIngredient);
+     this.onClear();
     }else {
-      this.item = new Ingredient(ingredient.name, ingredient.amount);
+      this.item = newIngredient;
       this.shoppingListService.addItem(this.item)
     }
   }
+
+onDelete(){
+  this.shoppingListService.deleteItem(this.item);
+  this.onClear();
+}
+
+  onClear(){
+    this.isAdd = true;
+    this.cleared.emit(null);
+
+  }
+
+
+
+
+
 }
