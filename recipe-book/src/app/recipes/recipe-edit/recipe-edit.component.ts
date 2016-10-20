@@ -32,7 +32,7 @@ export class RecipeEditComponent implements OnInit, OnDestroy {
       (params : any) => {
         if (params.hasOwnProperty('id')){ //it means i have an id (which it means i'm editing)
           this.isNew = false; //i dont have a new recipe so i put it to false.
-          this.recipeIndex = +params['id'];
+          this.recipeIndex = +params['id'];// the + means the id will become a string.
           this.recipe = this.recipeService.getRecipe(this.recipeIndex);
         }else{
           this.isNew = true;
