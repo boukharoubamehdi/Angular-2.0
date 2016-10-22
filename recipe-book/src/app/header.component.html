@@ -45,19 +45,24 @@
         <li class="dropdown" rbDropdown>
           <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
           <!--Replaced it with the one bellow.-->
-          <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">User <span class="caret"></span></a>
+          <a
+            class="dropdown-toggle"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false">Recipe Management <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <!--<li><a href="#">Action</a></li>-->
             <!--Replaced it with the one bellow.-->
-            <li><a href="#">Login</a></li>
+            <li><a (click)="onStore()" style="cursor: pointer;">Store Recipes</a></li>
+            <li><a (click)="onFetch()" style="cursor: pointer;">Retreive Recipes</a></li>
             <!--Replaced it with the one bellow.-->
             <!--<li><a href="#">Another action</a></li>-->
-            <li><a href="#">Other</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
+            <!--<li><a href="#">Other</a></li>-->
+            <!--<li><a href="#">Something else here</a></li>-->
+            <!--<li role="separator" class="divider"></li>-->
             <!--<li><a href="#">Separated link</a></li>-->
             <!--Replaced it with the one bellow.-->
-            <li><a href="#">Logout</a></li>
+            <!--<li><a href="#">Logout</a></li>-->
           </ul>
         </li>
       </ul>

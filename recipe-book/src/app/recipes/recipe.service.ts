@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Recipe } from './recipe';
 import { Ingredient } from '../shared/ingredient';
+import {Headers, Http, Response} from "@angular/http";
+import {Observable} from "rxjs";
 
 @Injectable()
 export class RecipeService {
@@ -13,7 +15,7 @@ export class RecipeService {
         new Ingredient('French Eggs', 4),
         new Ingredient(' cheese', 3)])
   ];
-  constructor() { }
+  constructor( private http: Http) { }
 
   getRecipes(){
     return this.recipes;
@@ -35,6 +37,32 @@ export class RecipeService {
     this.recipes[this.recipes.indexOf(oldRecipe)] = newRecipe;
   }
 
+storeData(){
 
+  const body = JSON.stringify(this.recipes);
+  const headers = new Headers;
+
+  headers.append('Content-Type', 'application/json');
+  return this.http.post('https://recipebook-afd29.firebaseio.com/recipes.json', body, {
+    headers: headers
+  }).map((data: Response) => data.json()).catch(this.handleError);
+
+}
+
+fetchData(){
+
+}
+
+  private handleError(error : any){
+    console.log(error);
+    //i will return the observable, because as the map operator function return automatically the extracted
+    //data  (esponse.json())
+    // because the obs has to continue, no matter if an error happend or not i need to return this error.
+    //so i'm able to handle it in the subscribe section as well.
+
+    return Observable.throw(error.json()); //take the error and return it.
+    //or we can transform error.json() "it will only send the error message"it depends on how we want to handle the error.
+
+  }
 
 }
