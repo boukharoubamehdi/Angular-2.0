@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import {Http, Response, Headers} from "@angular/http";
 import 'rxjs/Rx';
+import {Observable} from "rxjs";
 
 
 @Injectable()
@@ -17,7 +18,8 @@ export class HttpService {
       return this.http.get('https://angular-2-e587d.firebaseio.com/title.json')
       //takes the response, extract the body (the json the data) from the response transform it into json and then
       //it will return an observable (will use it when we use this http.service
-        .map((response: Response)=> response.json());
+        .map((response: Response)=> response.json())
+        .catch(this.handleError);
     }
 
     sendData(user : any){
@@ -29,12 +31,24 @@ export class HttpService {
       //headers (field) : my header.
       return this.http.post('https://angular-2-e587d.firebaseio.com/data.json', body, {
         headers: headers
-      }).map((data: Response) => data.json());
+      }).map((data: Response) => data.json()).catch(this.handleError);
     }
 
     getOwnData(){
       return this.http.get('https://angular-2-e587d.firebaseio.com/data.json')
         .map((response: Response)=> response.json());
+    }
+
+    private handleError(error : any){
+      console.log(error);
+       //i will return the observable, because as the map operator function return automatically the extracted
+      //data  (esponse.json())
+      // because the obs has to continue, no matter if an error happend or not i need to return this error.
+      //so i'm able to handle it in the subscribe section as well.
+
+      return Observable.throw(error.json()); //take the error and return it.
+      //or we can transform error.json() "it will only send the error message"it depends on how we want to handle the error.
+
     }
 
 }
