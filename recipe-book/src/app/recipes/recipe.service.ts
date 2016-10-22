@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable, EventEmitter} from '@angular/core';
 import { Recipe } from './recipe';
 import { Ingredient } from '../shared/ingredient';
 import {Headers, Http, Response} from "@angular/http";
@@ -6,6 +6,8 @@ import {Observable} from "rxjs";
 
 @Injectable()
 export class RecipeService {
+  recipesChanged = new EventEmitter<Recipe[]>();
+
   private recipes : Recipe [] = [
     new Recipe('Schnitzel', 'Very tasty', 'http://www.daringgourmet.com/wp-content/uploads/2014/03/Schnitzel-5.jpg',[
       new Ingredient('French Fries', 2),
@@ -15,6 +17,8 @@ export class RecipeService {
         new Ingredient('French Eggs', 4),
         new Ingredient(' cheese', 3)])
   ];
+
+
   constructor( private http: Http) { }
 
   getRecipes(){
@@ -43,13 +47,21 @@ storeData(){
   const headers = new Headers;
 
   headers.append('Content-Type', 'application/json');
-  return this.http.post('https://recipebook-afd29.firebaseio.com/recipes.json', body, {
+  return this.http.put('https://recipebook-afd29.firebaseio.com/recipes.json', body, {
     headers: headers
   }).map((data: Response) => data.json()).catch(this.handleError);
 
 }
 
 fetchData(){
+  return this.http.get('https://recipebook-afd29.firebaseio.com/recipes.json')
+    .map((response: Response)=> response.json()).subscribe(
+      (data: Recipe[]) => {
+          this.recipes = data;
+          //i need to emit a new event because new recipes have been fetch.
+          this.recipesChanged.emit(this.recipes);
+      }
+    );
 
 }
 

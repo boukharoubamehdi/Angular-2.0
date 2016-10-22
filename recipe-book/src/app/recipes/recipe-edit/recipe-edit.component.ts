@@ -93,17 +93,21 @@ export class RecipeEditComponent implements OnInit, OnDestroy {
     let recipeIngredient: FormArray = new FormArray([]);
 
     if(!this.isNew){ //which means we are in Editing mode
-      for (let i = 0; i< this.recipe.ingredients.length;i++){
-        recipeIngredient.push(
-          new FormGroup({
-            name: new FormControl(this.recipe.ingredients[i].name, Validators.required),
-            amount: new FormControl(this.recipe.ingredients[i].amount, [
-              Validators.required,
-              Validators.pattern("\\d+") //it means that the amount should be a digit.
-            ])
-          })
-        );
-      }
+       // if(this.hasOwnProperty('ingredients')){ // small fix on edit but on the second recipe.
+        for (let i = 0; i< this.recipe.ingredients.length;i++){
+          recipeIngredient.push(
+            new FormGroup({
+              name: new FormControl(this.recipe.ingredients[i].name, Validators.required),
+              amount: new FormControl(this.recipe.ingredients[i].amount, [
+                Validators.required,
+                Validators.pattern("\\d+") //it means that the amount should be a digit.
+              ])
+            })
+          );
+        }
+
+      // }
+
         //i want to see these details when i'm on edit mode.
         recipeName = this.recipe.name;
         recipeImage = this.recipe.imagePath;
