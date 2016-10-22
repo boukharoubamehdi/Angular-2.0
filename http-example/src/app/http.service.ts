@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {Http, Response} from "@angular/http";
+import {Http, Response, Headers} from "@angular/http";
 import 'rxjs/Rx';
 
 
@@ -18,6 +18,18 @@ export class HttpService {
       //takes the response, extract the body (the json the data) from the response transform it into json and then
       //it will return an observable (will use it when we use this http.service
         .map((response: Response)=> response.json());
+    }
+
+    sendData(user : any){
+      //only a string can be send by the POST request, that's why i stringfy the body.
+      const body = JSON.stringify(user);
+      const headers = new Headers();
+      // i'm sending a json Object
+      headers.append('Content-Type', 'application/json');
+      //headers (field) : my header.
+      return this.http.post('https://angular-2-e587d.firebaseio.com/data.json', body, {
+        headers: headers
+      }).map((data: Response) => data.json());
     }
 
 }
