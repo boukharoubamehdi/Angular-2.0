@@ -9,6 +9,10 @@ import {HttpService} from "./http.service";
 })
 export class AppComponent{
   items : any[] = [];
+  //i dont need to subscribe here because the async pipe will do it for me.
+  //it allows me to dynamically load the content.
+  asyncString = this.httpService.getData();
+
 
   constructor(private httpService: HttpService){
 
