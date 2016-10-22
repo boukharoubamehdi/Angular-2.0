@@ -8,7 +8,7 @@ import {HttpService} from "./http.service";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent{
-  title = 'app works!';
+  items : any[] = [];
 
   constructor(private httpService: HttpService){
 
@@ -26,5 +26,19 @@ onSubmit(username:string, email: string){
     data => console.log(data)
   );
 }
+
+  onGetData(){
+    this.httpService.getOwnData().subscribe(
+      //i will receive an object , i need to transform it to an array (i need to loop into my items).
+      data => {
+        const myArray= [];
+
+        for(let key in data){ // in my case each key is (email and username and in each of these two keys i have objects)
+          myArray.push(data[key]);
+        }
+        this.items = myArray;
+      }
+    );
+  }
 
 }

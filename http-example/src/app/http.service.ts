@@ -32,4 +32,9 @@ export class HttpService {
       }).map((data: Response) => data.json());
     }
 
+    getOwnData(){
+      return this.http.get('https://angular-2-e587d.firebaseio.com/data.json')
+        .map((response: Response)=> response.json());
+    }
+
 }
