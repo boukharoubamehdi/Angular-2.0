@@ -8,6 +8,9 @@ import { SigninComponent } from './unprotected/signin.component';
 import { SignupComponent } from './unprotected/signup.component';
 import { HeaderComponent } from './shared/header.component';
 import { routing } from './app.routes';
+import { AuthService } from './shared/aut.service';
+import { AuthGuard } from './shared/auth.guard';
+
 
 
 
@@ -29,7 +32,7 @@ import { routing } from './app.routes';
     ReactiveFormsModule,
     HttpModule,
     routing],
-  providers: [],
+  providers: [AuthService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
