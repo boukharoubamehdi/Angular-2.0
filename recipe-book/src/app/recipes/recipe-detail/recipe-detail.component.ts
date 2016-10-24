@@ -39,7 +39,7 @@ export class RecipeDetailComponent implements OnInit, OnDestroy {
   //I used Imprerative Routing here and off course i had to add it in the constructor
 
   onEdit(){
-    //because in the recipes.routes.ts (the path is : '/recipes/id/edit'
+    //because in the recipes.routing.ts (the path is : '/recipes/id/edit'
     this.router.navigate(['/recipes', this.recipeIndex, 'edit']);
   }
 
