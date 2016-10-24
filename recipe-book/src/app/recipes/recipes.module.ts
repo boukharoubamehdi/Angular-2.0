@@ -18,7 +18,6 @@ import {SharedModule} from "../shared/shared.module";
     RecipeListComponent,
     RecipeEditComponent,
     RecipeDetailComponent
-
   ],
   imports: [
     SharedModule, //it's an example of a sharedModule (contains CommonModule).
