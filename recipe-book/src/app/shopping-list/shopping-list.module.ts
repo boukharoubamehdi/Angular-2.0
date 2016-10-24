@@ -3,6 +3,7 @@ import { ShoppingListComponent } from "./shopping-list.component";
 import { ShoppingListAddComponent } from "./shopping-list-add.component";
 import {FormsModule} from "@angular/forms";
 import {CommonModule} from "@angular/common";
+import {shoppingListRouting} from "./shopping-list.routing";
 
 @NgModule({
 
@@ -12,7 +13,8 @@ import {CommonModule} from "@angular/common";
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    shoppingListRouting
   ]
 
 })
