@@ -9,6 +9,7 @@ import {recipesRouting} from "./recipes.routing";
 import {RecipeListComponent} from "./recipe-list/recipe-list.component";
 import {SharedModule} from "../shared/shared.module";
 
+
 @NgModule({
 
   declarations: [
