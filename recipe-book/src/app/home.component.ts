@@ -3,9 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'rb-home',
   template: `
-    <p>
+    <h1>
       Hello to the Mehdi's Recipe Book!
-    </p>
+    </h1>
   `,
   styles: []
 })
