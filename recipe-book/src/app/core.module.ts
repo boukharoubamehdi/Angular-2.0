@@ -8,6 +8,5 @@ import {HomeComponent} from "./home.component";
     HomeComponent],
   exports:[DropdownDirective]
 
-
 })
 export class CoreModule{}
