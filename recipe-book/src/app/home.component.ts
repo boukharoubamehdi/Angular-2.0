@@ -4,8 +4,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'rb-home',
   template: `
     <h1>
-      Hello to the Mehdi's Recipe Book!
+      Welcome to Mehdi's Recipe Book!
     </h1>
+    <img src="http://indiereader.com/wp-content/uploads/2015/04/mad-men.jpg">
   `,
   styles: []
 })
