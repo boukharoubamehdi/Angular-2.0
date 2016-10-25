@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
     <h1>
       Welcome to Mehdi's Recipe Book!
     </h1>
-    <img src="http://indiereader.com/wp-content/uploads/2015/04/mad-men.jpg">
+    <img class="img-responsive" style="max-height: 500px" src="http://indiereader.com/wp-content/uploads/2015/04/mad-men.jpg">
   `,
   styles: []
 })
