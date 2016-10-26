@@ -9,11 +9,10 @@
     "noImplicitAny": false
   },
   "files": [
-    "./src/app/main",
-    "typing.d.ts"
+    "./src/app/main.ts",
+    "typings.d.ts"
   ],
-  "atom":{
+  "atom": {
     "rewriteTsconfig": true
   }
-
 }
