@@ -1,1 +1,1 @@
-# AngularJs-2.0
+# Old Maximilian Schwarzmüller AngularJs-2.0 course
